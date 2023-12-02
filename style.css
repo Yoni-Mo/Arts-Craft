@@ -1,3 +1,6 @@
+body {
+  box-sizing: border-box;
+}
 .heading {
   font-family: Helvetica;
   font-size: 100px;
@@ -10,17 +13,26 @@
   color: khaki;
 }
 /* first section */
-.section-1 {
-}
 .brushes {
+  background-color: mediumspringgreen;
+}
+h2 {
   font-family: Helvtica;
   font-size: 32px;
   font-weight: bold;
   color: white;
-  background-color: mediumspringgreen;
 }
 .price {
   font-family: Helvetica;
   font-weight: bold;
   color: blue;
+}
+/* Second Section */
+.frames {
+  background-color: lightcoral;
+}
+/* Third section */
+
+.paint {
+  background-color: skyblue;
 }
